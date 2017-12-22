@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:padding="5dp"
+              android:gravity="center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="40dp">
+        <View
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:background="@drawable/toobar_bg_selector"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/icon_search_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/main_search"
+                android:lines="1"
+                android:background="@null"
+                android:hint="查询英文或中文"
+                android:textSize="12sp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    <ImageView
+        android:id="@+id/main_recent_learn"
+        android:layout_weight="0.1"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/rn_mall_images_clock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

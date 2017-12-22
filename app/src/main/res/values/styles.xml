@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="fullScreen" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="AppLauncherTheme" parent="fullScreen">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!--改变加载时候dailog的背景-->
+    <style name="ProgressDialog" parent="AlertDialog.AppCompat.Light">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@color/loadbackground</item>
+    </style>
+
+</resources>
