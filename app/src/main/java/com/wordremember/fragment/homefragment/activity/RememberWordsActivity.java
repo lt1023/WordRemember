@@ -136,4 +136,9 @@ public class RememberWordsActivity extends BaseActivity implements IRememberView
         super.onDestroy();
         speacher.destroy();
     }
+
+    @Override
+    public void onBackPressed() {
+        toMainActivity();
+    }
 }

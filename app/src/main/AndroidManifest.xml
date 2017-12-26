@@ -30,6 +30,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="QvqHOVkIRAuq6yZHi5cB2DKGchddpA6h" />
+
         <activity android:configChanges="keyboard|keyboardHidden|orientation"
                   android:label="@string/app_name"
                   android:theme="@style/AppLauncherTheme"

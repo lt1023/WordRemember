@@ -49,8 +49,8 @@ public abstract class BaseFragment extends Fragment implements View.OnClickListe
         if (!isVisible || !isFirstLoad || !isInitView){
             return;
         }
-        initListener();
         initData();
+        initListener();
         isFirstLoad = false;
     }
 

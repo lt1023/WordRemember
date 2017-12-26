@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recommand">
+        <item>音乐专业词汇</item>
+        <item>食品英语单词</item>
+        <item>游戏词汇</item>
+        <item>经济学人词汇</item>
+        <item>软件实用词汇</item>
+        <item>BBC新闻词汇</item>
+        <item>汽车交通词汇</item>
+        <item>人体部位词汇</item>
+        <item>农业英语词汇</item>
+        <item>文学英语词汇</item>
+        <item>商务英语词汇</item>
+        <item>交友常用词汇</item>
+        <item>生活常用词汇</item>
+        <item>求职常用词汇</item>
+        <item>电话常用词汇</item>
+        <item>办公室实用词汇</item>
+        <item>VOA慢速英语</item>
+        <item>旅游英语词汇</item>
+        <item>世界杯词汇</item>
+        <item>水果英语词汇</item>
+        <item>服装英语词汇</item>
+        <item>英文简历词汇</item>
+        <item>酒店英语词汇</item>
+        <item>美国总统演讲核心词汇</item>
+        <item>TIME单挑1000</item>
+    </string-array>
+</resources>

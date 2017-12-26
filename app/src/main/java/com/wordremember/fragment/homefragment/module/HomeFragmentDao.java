@@ -131,6 +131,5 @@ public class HomeFragmentDao implements IHomeFragmentDao {
     public void getBannerPicture(FindListener<Picture> listener) {
         BmobQuery<Picture> picquery = new BmobQuery<>();
         picquery.findObjects(listener);
-
     }
 }

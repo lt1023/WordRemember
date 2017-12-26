@@ -16,9 +16,9 @@ import com.roughike.bottombar.OnTabSelectListener;
 import com.wordremember.R;
 import com.wordremember.common.AppManager;
 import com.wordremember.fragment.classfragment.view.ClassFragment;
-import com.wordremember.fragment.findfragment.FindFragment;
+import com.wordremember.fragment.findfragment.view.FindFragment;
 import com.wordremember.fragment.homefragment.view.HomeFragment;
-import com.wordremember.fragment.minefragment.MineFragment;
+import com.wordremember.fragment.minefragment.view.MineFragment;
 import com.wordremember.utils.ToastUtil;
 
 import java.util.ArrayList;

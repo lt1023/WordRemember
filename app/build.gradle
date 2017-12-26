@@ -66,4 +66,10 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile files('libs/Msc.jar')
     compile files('libs/Sunflower.jar')
+
+    //百度地图
+    compile files('libs/BaiduLBS_Android.jar')
+
+    //圆形头像
+    compile 'com.makeramen:roundedimageview:2.2.1'
 }

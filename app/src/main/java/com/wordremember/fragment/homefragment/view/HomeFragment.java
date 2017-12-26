@@ -93,4 +93,5 @@ public class HomeFragment extends BaseFragment implements IHomeFragment{
     public void hideProgress() {
         mDialog.dissmissDialog();
     }
+
 }
